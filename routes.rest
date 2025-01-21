@@ -1,0 +1,20 @@
+// Localhost
+
+GET http://localhost:3000/users
+GET http://localhost:3000/users/678d344199d2b5012efcba15
+GET http://localhost:3000/users/678d353999d2b5012efcba17
+GET http://localhost:3000/users/678d362399d2b5012efcba18
+
+
+
+// Production 
+
+GET https://cse-341-project1-bddt.onrender.com/users/
+GET https://cse-341-project1-bddt.onrender.com/users/678d344199d2b5012efcba15
+GET https://cse-341-project1-bddt.onrender.com/users/678d353999d2b5012efcba17
+GET https://cse-341-project1-bddt.onrender.com/users/678d362399d2b5012efcba18
+
+
+
+
+
