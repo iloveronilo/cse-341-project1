@@ -5,19 +5,8 @@ GET http://localhost:3000/users
 ### Get contacts by id  
 GET http://localhost:3000/users/678d344199d2b5012efcba15
 
-### Post contacts by id ### create
+### Post contacts by id
 POST http://localhost:3000/users
-Content-Type: application/json
-
-{
-  "email": "Owel@gmail.com",
-  "username": "owel",
-  "name": "owel user",
-  "IP address": "94.121.163.63"
-}
-
-### Put contacts ### update by id
-PUT http://localhost:3000/users/678d344199d2b5012efcba15
 Content-Type: application/json
 
 {
@@ -27,8 +16,23 @@ Content-Type: application/json
   "IP address": "94.121.163.63"
 }
 
+### Put / update contacts by id
+PUT http://localhost:3000/users/678d344199d2b5012efcba15
+Content-Type: application/json
+
+{
+  "email": "John@gmail.com",
+  "username": "John",
+  "name": "John user",
+  "IP address": "94.121.163.63"
+}
+
 ### Delete contacts by id
-DELETE http://localhost:3000/users/67987a33b3686f33d8ea5443
+DELETE http://localhost:3000/users/678d344199d2b5012efcba15
+
+
+
+
 
 
 
@@ -40,8 +44,27 @@ GET https://cse-341-project1-bddt.onrender.com/users/
 ### Get contacts by id
 GET https://cse-341-project1-bddt.onrender.com/users/678d344199d2b5012efcba15
 
-### Get contacts by id
-GET https://cse-341-project1-bddt.onrender.com/users/678d353999d2b5012efcba17
+### Post contacts by id
+POST https://cse-341-project1-bddt.onrender.com/users
+Content-Type: application/json
 
-### Get contacts by id
-GET https://cse-341-project1-bddt.onrender.com/users/678d362399d2b5012efcba18
+{
+  "email": "agnes@gmail.com",
+  "username": "agnes",
+  "name": "Agnes user",
+  "IP address": "94.121.163.63"
+}
+
+### Put / update contacts by id
+PUT https://cse-341-project1-bddt.onrender.com/users/678d344199d2b5012efcba15
+Content-Type: application/json
+
+{
+  "email": "John@gmail.com",
+  "username": "John",
+  "name": "John user",
+  "IP address": "94.121.163.63"
+}
+
+### Delete contacts by id
+DELETE https://cse-341-project1-bddt.onrender.com/users/678d344199d2b5012efcba15
