@@ -5,14 +5,17 @@
     "description": "users API",
     "version": "1.0.0"
   },
-  "host": "cse-341-project1-bddt.onrender.com",
+  "host": "localhost:3000",
   "basePath": "/",
   "schemes": [
-    "http, https"
+    "https"
   ],
   "paths": {
     "/": {
       "get": {
+        "tags": [
+          "Users"
+        ],
         "description": "",
         "responses": {
           "200": {
